@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: U+uBJZqrihlZoz4KVZ/WvfB4wirbIREaQGP1vdPUHzTMMxMeOt9ho98zNTyo+t89OLMblIBvrgHIGYK6iwT4K7fUi9+QPf+2uUdkSzZ8oKX3F+n4W+mkgorhSINeUTMeU3xNTD8KSt3zPOLQd9dSCeTCkrMtc8swqpGUzpX5WuY3omVzBl0nR8JgOkaGXgbuKfn1C5Xpr8xj0S6z/Fel0qfPkOX5I64t5U0RiXumGMg4V4GJaHnn/IMAFtwx1+mdD7ZpYXvE7FL7sILOUZid0ELOz/zJnucX5TInHs4HeuSe8vEp/WmV2aUtHBr/7oFFxfwgdw/CCuV6QYwiwn1BvhKoHuupaMMtRUG8x4z5Nk2Bm3S13kDos0J22Nct/iXPWT+58R+AMkipxLJEbRR/wayFx5GXiwhDE6f1An2vORoJ/ZwFjNbCQ9Pg6Bj1m9N33CgEsuNzmo5RYQH25OlvjapzNDKZh3l6MKx0dA4PMRzklWTlYUPD/Su80ULUhfRXSw1ySlOJr7CdjS61lJFuErC8LZ+FvX7RD5DeWeSE0hdifOtXeKaNILc8yo7xQbJQDYxQDFv6iipObhU+VeGNYigzz1/693crQyucuQfkBJ5VUfujnYS5xNoY9iFZEDHe+xEHqpIAb3whgFFU2XOlLnE+Q/Z28DyLU3EG7xzyvnY=
+  app: https://damp-headland-95060.herokuapp.com/
+  on:
+    repo: kfrick423/headacheTracker
